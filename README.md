@@ -18,8 +18,8 @@
 * Book Travel package ( entering relavet Information ) <br>
 * View Current status about Booking
 
->  payment -> ( pendin ) ( Conform ) ( Reject ) <br>
->  booking -> ( pendin ) ( Conform ) ( Reject )
+>  payment -> ( pending ) ( Confirm ) ( Reject ) <br>
+>  booking -> ( pending ) ( Confirm ) ( Reject )
 
 <br>
 
