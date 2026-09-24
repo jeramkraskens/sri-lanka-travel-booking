@@ -2,10 +2,10 @@
 
 <h1 align="center"> With Laravel </h1>
 
-> \[!IMPORTANT]
-> \*\*\[View WebApplication UI/UX Design (Figma)](https://www.figma.com/design/E5aFcTBk4oNJvYFS6FPTE7/Travel-Package-Web-App-%22-Sinha-Tour-%22?node-id=0-1\&t=4jlFsHrvz8b5hmJM-0)\*\*
+> \\\[!IMPORTANT]
+> \\\*\\\*\\\[View WebApplication UI/UX Design (Figma)](https://www.figma.com/design/E5aFcTBk4oNJvYFS6FPTE7/Travel-Package-Web-App-%22-Sinha-Tour-%22?node-id=0-1\\\&t=4jlFsHrvz8b5hmJM-0)\\\*\\\*
 > <br> <br>
-> \*\*\[View WebApplication Screenshots](https://dilan032.github.io/Portfolio/projects/TavelPackageBookingWebApplication/TavelPackageBookingWeb.html)\*\*
+
 
 
 
@@ -94,32 +94,32 @@ Copy the .env.example file to create a new .env file.
 
 Open the .env file and configure your database
 
-`DB\_CONNECTION=mysql` <br>
-`DB\_HOST=127.0.0.1` <br>
-`DB\_PORT=3306` <br>
-`DB\_DATABASE=travel\_agency\_db` <br>
-`DB\_USERNAME=root` <br>
-`DB\_PASSWORD=` <br><br>
-`APP\_NAME=SriLankaTours` <br>
+`DB\\\_CONNECTION=mysql` <br>
+`DB\\\_HOST=127.0.0.1` <br>
+`DB\\\_PORT=3306` <br>
+`DB\\\_DATABASE=travel\\\_agency\\\_db` <br>
+`DB\\\_USERNAME=root` <br>
+`DB\\\_PASSWORD=` <br><br>
+`APP\\\_NAME=SriLankaTours` <br>
 
 <br>
 
 ## Run Database Migrations:
 
-> \[!WARNING]
+> \\\[!WARNING]
 > Run Database Migrations is not recomandaed for this
 `php artisan migrate `
 
 <br>
 
-> \[!NOTE]
+> \\\[!NOTE]
 > Becouse if your are  Run Database Migrations website has not any data. > ( Blogs, Travel Packages) <br>
 > #But you can Add this data using admin panel
 
-> \[!TIP]
+> \\\[!TIP]
 > ### Recomanded
 > In this files has " `Database SQL` " folder and this folder has database file(sql)
-> Name " `travel\_agency\_db` " use this sql file for database
+> Name " `travel\\\_agency\\\_db` " use this sql file for database
 
 <br><br>
 
@@ -145,7 +145,7 @@ Open your browser and navigate to http://127.0.0.1:8000 to verify that your appl
 
 <h1 align="center"> For Login </h1>
 
-> \[!NOTE]
+> \\\[!NOTE]
 > If You are use `Database SQL`  folder's database file (sql), Then you can use this login details.<br>
 > Or register as a new user. <br>
 
